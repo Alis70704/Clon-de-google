@@ -1,0 +1,31 @@
+/* Estilos para la foto de perfil */
+img[alt="Profile Photo"] {
+    border-radius: 50%; /* Hacerla circular */
+    width: 32px; /* Ajustar el ancho */
+    height: 32px; /* Ajustar la altura */
+}
+
+/* Estilos para los botones */
+#botones button {
+    border: 1px solid #dadce0; /* Cambiar el color del borde */
+    border-radius: 24px; /* Hacer el botón más redondo */
+    padding: 0 16px; /* Ajustar el relleno */
+    height: 36px; /* Ajustar la altura */
+    margin: 8px; /* Ajustar el margen */
+    font-size: 14px; /* Tamaño de fuente */
+    background-color: #f8f9fa; /* Cambiar el color de fondo */
+    color: #3c4043; /* Cambiar el color del texto */
+}
+
+/* Estilos para los botones al pasar el ratón */
+#botones button:hover {
+    background-color: #f1f3f4; /* Cambiar el color de fondo al pasar el ratón */
+    /* Estilos para todas las imágenes */
+img {
+    max-width: 100%; /* Ajustar el ancho máximo al contenedor */
+    height: auto; /* Mantener la proporción de aspecto */
+    display: block; /* Evitar espacio adicional debajo de las imágenes */
+    margin: 8px auto; /* Ajustar el margen vertical y centrar horizontalmente */
+}
+
+}
